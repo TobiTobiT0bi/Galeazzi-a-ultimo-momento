@@ -3,17 +3,17 @@
         <div class="manolito">
 
         </div>
-        <form action="https://formsubmit.co/gamewise26@gmail.com" method="POST" class="formucon">
+        <form action="inicio_sesion_post.php" method="POST" class="formucon">
             <h3 class="hj">¡HOLA VIAJESNECO!</h3>
-            <label class="labin" for="email">Email</label>
+            <label class="labin" for="email">Nombre</label>
             <div class="input-group mb-3">
-                <input type="text" class="effect-input" name="Email" id="email" required>
+                <input type="text" class="effect-input" name="nombre" id="nombre" required>
                 <span class="focus-border"></span>
             </div>
 
-            <label class="labin" for="asunto">Contraseña</label>
+            <label class="labin" for="asunto">Direccion</label>
             <div class="input-group mb-3">
-                <input class="effect-input" type="text" name="Contraseña" id="Contraseña" required>
+                <input class="effect-input" type="text" name="direccion" id="direccion" required>
                 <span class="focus-border"></span>
             </div>
             <button type="submit" class="btn btn-danger">Enviar</button>
