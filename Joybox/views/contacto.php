@@ -4,7 +4,7 @@
 
         </div>
         <form action="https://formsubmit.co/gamewise26@gmail.com" method="POST" class="formucon">
-            <h3 class="hj">¡HOLA JOYBOX!</h3>
+            <h3 class="hj">¡HOLA VIAJESNECO!</h3>
             <label class="labin" for="email">Email</label>
             <div class="input-group mb-3">
                 <input type="text" class="effect-input" name="Email" id="email" required>
