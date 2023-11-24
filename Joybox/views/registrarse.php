@@ -3,23 +3,35 @@
         <div class="manolito">
 
         </div>
-        <form action="https://formsubmit.co/gamewise26@gmail.com" method="POST" class="formucon">
+        <form method="POST" action="registrarse_post.php" class="formucon">
             <h3 class="hj">¡HOLA VIAJESNECO!</h3>
-            <label class="labin" for="email">Email</label>
+            <label class="labin" for="email">Nombre</label>
             <div class="input-group mb-3">
-                <input type="text" class="effect-input" name="Email" id="email" required>
+                <input type="text" class="effect-input" name="nombre" id="nombre" required>
                 <span class="focus-border"></span>
             </div>
 
-            <label class="labin" for="asunto">Contraseña</label>
+            <label class="labin" for="asunto">Telefono</label>
             <div class="input-group mb-3">
-                <input class="effect-input" type="text" name="Contraseña" id="Contraseña" required>
+                <input class="effect-input" type="text" name="telefono" id="telefono" required>
                 <span class="focus-border"></span>
             </div>
 
-            <label class="labin" for="asunto">Confirmar Contraseña</label>
+            <label class="labin" for="asunto">Preferencias</label>
             <div class="input-group mb-3">
-                <input class="effect-input" type="text" name="Contraseña2" id="Contraseña2" required>
+                <input class="effect-input" type="text" name="preferencias" id="preferencias" required>
+                <span class="focus-border"></span>
+            </div>
+
+            <label class="labin" for="asunto">direccion</label>
+            <div class="input-group mb-3">
+                <input class="effect-input" type="text" name="direccion" id="direccion" required>
+                <span class="focus-border"></span>
+            </div>            
+
+            <label class="labin" for="asunto">Confirmar direccion</label>
+            <div class="input-group mb-3">
+                <input class="effect-input" type="text" name="direccion2" id="direccion2" required>
                 <span class="focus-border"></span>
             </div>
             <button type="submit" class="btn btn-danger">Enviar</button>
