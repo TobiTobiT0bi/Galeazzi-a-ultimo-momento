@@ -14,8 +14,8 @@
                     <a class="nav-link <?php echo ($view == "contacto" ? "activo" : "no-activo"); ?>" aria-current="page" href="contacto.php">Contacto</a>
                 </li>
             </ul>
-            <button style="margin-right: 0px" type="button" class="btn btn-outline-light descarga-bnt <?php echo ($view == 'home' ? 'blanco' : 'rojo'); ?>" id="des-bnt-menu<?php echo ($view == 'home' ? '-blanco' : '-rojo'); ?>">Iniciar sesion</button>
-            <button type="button" class="btn btn-outline-light descarga-bnt <?php echo ($view == 'home' ? 'blanco' : 'rojo'); ?>" id="des-bnt-menu<?php echo ($view == 'home' ? '-blanco' : '-rojo'); ?>">Registrarse</button>
+            <button onclick="location.href='inicio_sesion.php';" style="margin-right: 0px" type="button" class="btn btn-outline-light descarga-bnt <?php echo ($view == 'home' ? 'blanco' : 'rojo'); ?>" id="des-bnt-menu<?php echo ($view == 'home' ? '-blanco' : '-rojo'); ?>">Iniciar sesion</button>
+            <button onclick="location.href='registrarse.php';" type="button" class="btn btn-outline-light descarga-bnt <?php echo ($view == 'home' ? 'blanco' : 'rojo'); ?>" id="des-bnt-menu<?php echo ($view == 'home' ? '-blanco' : '-rojo'); ?>">Registrarse</button>
         </div>
     </div>
 </nav>
