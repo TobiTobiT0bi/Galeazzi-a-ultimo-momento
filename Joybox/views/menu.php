@@ -11,7 +11,7 @@
                     <a class="nav-link <?php echo ($view == "home" ? "activo" : "no-activo"); ?>" id="inicio-m" aria-current="page" href="index.php">Inicio</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link <?php echo ($view == "contacto" ? "activo" : "no-activo"); ?>" aria-current="page" href="contacto.php">Contacto</a>
+                    <a class="nav-link <?php echo ($view == "ranking" ? "activo" : "no-activo"); ?>" aria-current="page" href="ranking.php">Ranking</a>
                 </li>
             </ul>
             <button onclick="location.href='inicio_sesion.php';" style="margin-right: 0px" type="button" class="btn btn-outline-light descarga-bnt <?php echo ($view == 'home' ? 'blanco' : 'rojo'); ?>" id="des-bnt-menu<?php echo ($view == 'home' ? '-blanco' : '-rojo'); ?>">Iniciar sesion</button>
