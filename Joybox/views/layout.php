@@ -1,13 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-<?php 
-
-include("server/conexion.php");
-
-$sql = "SELECT * FROM clientes";
-$res = sqlsrv_query($con, $sql);
-
-?>
 
 <head>
     <meta charset="UTF-8">
